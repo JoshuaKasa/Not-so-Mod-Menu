@@ -13,10 +13,10 @@ new Option(the name of the otpions you want to display, the type of options ("ch
             [an array that contains every option name], function () { inside here you wanna put the actual function for when the options is clicked})
             
 Click option example:
-new Option("Add 10 health", "click", ["10"], function() { oPlayer.health += 10})
+```new Option("Add 10 health", "click", ["10"], function() { oPlayer.health += 10})```
 
 Change options example:
-new Option("Add gold", "change", [100, 1000, 100000], function () { oPlayer.gold += options[0].values[value_cursor] })
+```new Option("Add gold", "change", [100, 1000, 100000], function () { oPlayer.gold += options[0].values[value_cursor] })```
 This might seems kinda hard but it's actually not!
 All I'm doing I'm adding to the player gold **oPlayer.gold** whatever the user is pressing on the option **options[0]** the current option **.values** the array containing
 all the option values **[value_cursor]** whatever the user is on in the option values.
