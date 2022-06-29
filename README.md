@@ -17,6 +17,7 @@ Click option example:
 
 Change options example:
 >```new Option("Add gold", "change", [100, 1000, 100000], function () { oPlayer.gold += options[0].values[value_cursor] })```
+
 This might seems kinda hard but it's actually not!
 All I'm doing I'm adding to the player gold **oPlayer.gold** whatever the user is pressing on the option **options[0]** the current option **.values** the array containing
 all the option values **[value_cursor]** whatever the user is on in the option values.
